@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fuadsuleyman/stardb-react/static/css/main.29b7f63d.chunk.css",
+    "main.js": "/fuadsuleyman/stardb-react/static/js/main.2d204e29.chunk.js",
+    "main.js.map": "/fuadsuleyman/stardb-react/static/js/main.2d204e29.chunk.js.map",
+    "runtime-main.js": "/fuadsuleyman/stardb-react/static/js/runtime-main.3d69770e.js",
+    "runtime-main.js.map": "/fuadsuleyman/stardb-react/static/js/runtime-main.3d69770e.js.map",
+    "static/js/2.44404c4f.chunk.js": "/fuadsuleyman/stardb-react/static/js/2.44404c4f.chunk.js",
+    "static/js/2.44404c4f.chunk.js.map": "/fuadsuleyman/stardb-react/static/js/2.44404c4f.chunk.js.map",
+    "index.html": "/fuadsuleyman/stardb-react/index.html",
+    "precache-manifest.713034be5ddb7f2db0da2d794cd7da0b.js": "/fuadsuleyman/stardb-react/precache-manifest.713034be5ddb7f2db0da2d794cd7da0b.js",
+    "service-worker.js": "/fuadsuleyman/stardb-react/service-worker.js",
+    "static/css/main.29b7f63d.chunk.css.map": "/fuadsuleyman/stardb-react/static/css/main.29b7f63d.chunk.css.map",
+    "static/js/2.44404c4f.chunk.js.LICENSE.txt": "/fuadsuleyman/stardb-react/static/js/2.44404c4f.chunk.js.LICENSE.txt",
+    "static/media/death-star.png": "/fuadsuleyman/stardb-react/static/media/death-star.aa1e2de2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d69770e.js",
+    "static/js/2.44404c4f.chunk.js",
+    "static/css/main.29b7f63d.chunk.css",
+    "static/js/main.2d204e29.chunk.js"
+  ]
+}
