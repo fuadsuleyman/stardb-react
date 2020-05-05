@@ -15,7 +15,7 @@ const SecretPage = ({isLoggedIn, onLogOut}) => {
         )
     }
 
-    return <Redirect to='/login' />
+    return <Redirect to='/stardb-react/login' />
 }
 
 export default SecretPage;

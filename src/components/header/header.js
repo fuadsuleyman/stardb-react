@@ -7,23 +7,23 @@ const Header = ({ onServiceChange }) => {
     return (
         <div className="header d-flex">
             <h3>
-                <Link to='/'>Star DB</Link>
+                <Link to='/stardb-react'>Star DB</Link>
             </h3>
             <ul className="d-flex">
                 <li>
-                    <Link to='/people/'>People</Link>
+                    <Link to='/stardb-react/people/'>People</Link>
                 </li>
                 <li>
-                    <Link to='/planets'>Planets</Link>
+                    <Link to='/stardb-react/planets'>Planets</Link>
                 </li>
                 <li>
-                    <Link to='/starships/'>Starships</Link>
+                    <Link to='/stardb-react/starships/'>Starships</Link>
                 </li>
                 <li>
-                    <Link to='/secret'>Secret</Link>
+                    <Link to='/stardb-react/secret'>Secret</Link>
                 </li>
                 <li>
-                    <Link to='/login'>Login</Link>
+                    <Link to='/stardb-react/login'>Login</Link>
                 </li>
             </ul>
             <button

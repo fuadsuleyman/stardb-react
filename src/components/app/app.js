@@ -14,9 +14,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { StarshipDetails } from '../sw-components';
 import { PlanetDetails } from '../sw-components';
 
-
-
-
 export default class App extends Component {
 
   // state-e atdigimcun burdan sildim
@@ -66,26 +63,26 @@ export default class App extends Component {
               <Header onServiceChange={this.onServiceChange} />
               <RandomPlanet />
               <Switch>
-                <Route path='/'
+                <Route path='/stardb-react'
                   render={() => <h2>Welcome to Star DB</h2>}
                   exact />
-                <Route path='/people/:id?' exact component={PeoplePage} />
-                <Route path='/planets' exact component={PlanetsPage} />
-                <Route path='/starships' exact component={StarshipsPage} />
-                <Route path='/secret'
+                <Route path='/stardb-react/people/:id?' exact component={PeoplePage} />
+                <Route path='/stardb-react/planets' exact component={PlanetsPage} />
+                <Route path='/stardb-react/starships' exact component={StarshipsPage} />
+                <Route path='/stardb-react/secret'
                   render={() => (<SecretPage isLoggedIn={isLoggedIn}
                     onLogOut={this.onLogOut}
                     alertMessage={this.alertMessage} />)} />
-                <Route path='/login'
+                <Route path='/stardb-react/login'
                   render={() => (<LoginPage isLoggedIn={isLoggedIn}
                     onLogin={this.onLogin} />)} />
                 {/* match-in komeyi ile starshipDetail-e id otururuk, url-den goturur */}
-                <Route path='/planets/:id'
+                <Route path='/stardb-react/planets/:id'
                   render={({ match }) => {
                     const { id } = match.params;
                     return <PlanetDetails itemId={id} />
                   }} />
-                <Route path='/starships/:id'
+                <Route path='/stardb-react/starships/:id'
                   render={({ match }) => {
                     const { id } = match.params;
                     return <StarshipDetails itemId={id} />

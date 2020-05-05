@@ -5,7 +5,7 @@ import { PlanetList } from '../sw-components';
 const PlanetsPage = ({ history }) => {
   return (
     <PlanetList onItemSelected={(itemId) => {
-      history.push(`/planets/${itemId}`)
+      history.push(`/stardb-react/planets/${itemId}`)
     }} />
   );
 }
